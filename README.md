@@ -3,6 +3,10 @@
 
 JSDoc 4 documentation template theme forked and modified from clenemt/docdash.
 
+## Example
+
+Visit the [documentation](https://vseryakov.github.io/backendjs/docs/web/index.html).
+
 ## Install
 
 ```bash
