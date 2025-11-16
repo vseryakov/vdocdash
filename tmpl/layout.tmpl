@@ -1,9 +1,13 @@
+<?js
+    var data = obj;
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <?js if (!env.conf.docdash) { env.conf.docdash = {};} ?>
     <meta charset="utf-8">
-    <title><?js= title ?> - <?js= ((env.conf.docdash.meta && env.conf.docdash.meta.title) || "Documentation") ?></title>
+    <title><?js= title ?> - <?js= (env.conf.docdash.meta?.title || "Documentation") ?></title>
     <?js if (env.conf.docdash.meta) { ?>
     <?js if (env.conf.docdash.meta.description) { ?><meta name="description" content="<?js= env.conf.docdash.meta.description ?>" /><?js } ?>
     <?js if (env.conf.docdash.meta.keyword) { ?>
@@ -50,7 +54,7 @@
 </nav>
 
 <div id="main">
-    <?js if (title != 'Home') { ?>
+    <?js if (title != 'Home' && data.page_title !== false) { ?>
     <h1 class="page-title"><?js= title ?></h1>
     <?js } ?>
 
@@ -85,7 +89,7 @@
 <?js if (env.conf.docdash.collapse) { ?>
 <script src="scripts/collapse.js" defer></script>
 <?js } ?>
-<?js if (env.conf.docdash.scripts && env.conf.docdash.scripts.length) {
+<?js if (env.conf.docdash.scripts?.length) {
     for(var i = 0; i < env.conf.docdash.scripts.length; i++){
         if (env.conf.docdash.scripts[i].indexOf(".css") != -1) {
     ?>

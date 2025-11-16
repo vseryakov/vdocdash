@@ -4,7 +4,10 @@ Docdash is free software, licensed under the Apache License, Version 2.0 (the
 "License"). Commercial and non-commercial use are permitted in compliance with
 the License.
 
+Copyright (c) 2025 Vlad Seryakov and 
+
 Copyright (c) 2016 Clement Moron <clenemt@gmail.com> and the
+
 [contributors to docdash](https://github.com/clenemt/docdash/graphs/contributors).
 All rights reserved.
 
