@@ -12,7 +12,7 @@ body {
   background-color: white;
   margin: 0 auto;
   padding: 0 20px;
-  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 16px;
 }
 
@@ -88,7 +88,7 @@ h4 {
 
 h4.name {
   color: #fff;
-  background: #6d426d;
+  background: #084298;
   box-shadow: 0 .25em .5em #d3d3d3;
   border-top: 1px solid #d3d3d3;
   border-bottom: 1px solid #d3d3d3;
@@ -118,14 +118,12 @@ h6 {
 }
 
 .usertext h1 {
-  font-family: "Source Sans Pro";
   font-size: 24px;
   margin: 2.5em 0 1em;
   font-weight: 400;
 }
 
 .usertext h2 {
-  font-family: "Source Sans Pro";
   font-size: 18px;
   margin: 2em 0 0.5em;
   font-weight: 400;
@@ -133,14 +131,12 @@ h6 {
 }
 
 .usertext h3 {
-  font-family: "Source Sans Pro";
   font-size: 15px;
   margin: 1.5em 0 0;
   font-weight: 400;
 }
 
 .usertext h4 {
-  font-family: "Source Sans Pro";
   font-size: 14px;
   margin: 0 0 0;
   font-weight: 400;
@@ -163,7 +159,7 @@ h6 {
 
 
 tt, code, kbd, samp, pre {
-  font-family: Consolas, Monaco, 'Andale Mono', monospace;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   background: #f4f4f4;
 }
 
@@ -337,7 +333,7 @@ footer {
 }
 
 .type-signature {
-  color: #CA79CA
+  color: #ffc107
 }
 
 .type-signature:last-child {
@@ -345,11 +341,11 @@ footer {
 }
 
 .name, .signature {
-  font-family: Consolas, Monaco, 'Andale Mono', monospace
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 .signature {
-    color: #fc83ff;
+    color: #ffc107;
 }
 
 .details {
@@ -447,11 +443,11 @@ footer {
 }
 
 .prettyprint.linenums li {
-   border-left: 3px #34446B solid;
+   border-left: 3px #084298 solid;
 }
 
 .prettyprint.linenums li.selected, .prettyprint.linenums li.selected * {
-   background-color: #34446B;
+   background-color: #084298;
 }
 
 .prettyprint.linenums li * {
@@ -502,7 +498,7 @@ thead tr, thead tr {
 
 .params td, .params .name, .props .name, .name code {
    color: #4D4E53;
-   font-family: Consolas, Monaco, 'Andale Mono', monospace;
+   font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
    font-size: 100%;
 }
 
@@ -522,7 +518,7 @@ thead tr, thead tr {
 
 span.param-type, .params td .param-type, .param-type dd {
    color: #606;
-  font-family: Consolas, Monaco, 'Andale Mono', monospace
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 .param-type dt, .param-type dd {
