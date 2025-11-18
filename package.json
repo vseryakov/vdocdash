@@ -1,5 +1,5 @@
 {
-  "name": "@veryakov/docdash",
+  "name": "@vseryakov/docdash",
   "version": "1.0.0",
   "description": "JSDoc 4 documentation template theme inspired by clenemt/docdash",
   "main": "publish.js",
